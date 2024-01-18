@@ -32,7 +32,7 @@ def parse_args():
     
     parser.add_argument('--cfg',
                         help='experiment configure file name',
-                        default="configs/cityscapes/sanet_cityscapes_S.yaml",
+                        default="configs/cityscapes/mrrnet_cityscapes_S.yaml",
                         type=str)
     parser.add_argument('--seed', type=int, default=3407)
     parser.add_argument('opts',
@@ -79,7 +79,7 @@ def main():
     imgnet = 'imagenet' in config.MODEL.PRETRAINED or 'city' in config.MODEL.PRETRAINED
     print(config.MODEL.PRETRAINED)
     print(f"使用预训练:{imgnet}")
-    model = models.sanet.get_seg_model(config, imgnet_pretrained=imgnet)
+    model = models.mrrnet_s.get_seg_model(config, imgnet_pretrained=imgnet)
  
     batch_size = config.TRAIN.BATCH_SIZE_PER_GPU * len(gpus)
     # prepare data
