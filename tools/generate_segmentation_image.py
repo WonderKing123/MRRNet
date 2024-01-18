@@ -41,7 +41,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description='Custom Input')
 
     parser.add_argument('--c', help='cityscapes pretrained or not', type=bool, default=True)
-    parser.add_argument('--p', help='dir for pretrained model', default='../pretrained_models/cityscapes/sanet.pt',
+    parser.add_argument('--p', help='dir for pretrained model', default='../pretrained_models/cityscapes/mrrnet_s.pt',
                         type=str)
     parser.add_argument('--r', help='root or dir for input images', default='../data/cityscapes/leftImg8bit/', type=str)
     parser.add_argument('--t', help='the format of input images (.jpg, .png, ...)', default='.png', type=str)
