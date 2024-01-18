@@ -84,7 +84,7 @@ if __name__ == '__main__':
     index = 1 if "main" in output else 0
     sv_path = "../segmentation_image" + '/'+output+'/'
     boundary = False
-    model = models.sanet.get_seg_model(None, False)
+    model = models.mrrnet_s.get_seg_model(None, False)
     model = load_pretrained(model, args.p).cuda()
     model.eval()
     with torch.no_grad():
