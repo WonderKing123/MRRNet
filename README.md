@@ -56,7 +56,7 @@ Start the training with our preset script train.sh or use the following command
 
 ### Evaluate
 
-Download the training weights we provided and put them in `pretrained_models/cityscapes/`or`pretrained_models/camvid/`
+Download the training weights we provided and put them in `pretrained_models/cityscapes/`,`pretrained_models/camvid/` or `pretrained_models/nightcity/`
 
 Configure evaluation parameters in the yaml file in the `config` folder, such as `ExpName`
 
