@@ -2,7 +2,7 @@
 
 ## The official implementation of "Multi-Resolution Refinement Network for Semantic Segmentation in Internet of Things"
 
-## MRRNet network structure
+## MRRNet
 
 <p align="center">
   <img src="figs/Fig3.png" width="3995"/>
