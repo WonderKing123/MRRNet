@@ -75,8 +75,8 @@ in the `config` folder
 
 | Model (CamVid) | Val (% mIOU) |  FPS |
 |:-:|:-:|:-:|
-| MRRNet-S |-| 78.9 | 175.7 |
-| MRRNet-L |-| 80.2 | 85.7 |
+| MRRNet-S | 78.9 | 175.7 |
+| MRRNet-L | 80.2 | 85.7 |
 
 | Model (NightCity) | Val (% mIOU) | FPS |
 |:-:|:-:|:-:|
