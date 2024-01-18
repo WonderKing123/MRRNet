@@ -82,5 +82,5 @@ in the `config` folder
 |:-:|:-:|:-:|
 | MRRNet-S| 54.2 | 178.9 |
 
-The test speed follows the DDRNet and PIDNet test methodology, and the speed test is in ```models/sanet_speed.py```
+The test speed follows the DDRNet and PIDNet test methodology.
 
