@@ -1,6 +1,5 @@
 # Multi-Resolution Refinement Network for Semantic Segmentation in Internet of Things
 
-## The official implementation of "Multi-Resolution Refinement Network for Semantic Segmentation in Internet of Things"
 
 ## MRRNet
 
